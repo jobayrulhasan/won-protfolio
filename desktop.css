@@ -13,7 +13,7 @@
 .col-12 {width: 100%;}
 
 
-
+/* navbar design starts here */
 .logo{
     text-align: left;
 }
@@ -29,3 +29,40 @@
     margin: 20px 0;
     background-color: transparent;
 }
+/* navbar design ends */
+
+/* profile design starts here */
+.profile-description h1{
+    font-family:'Satisfy', cursive;
+    font-size: 4rem;
+    color: lightseagreen;
+}
+.profile-description p{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.top-weather-icon{
+    position: absolute;
+    right: 100px;
+    top: 1px;
+    width: 150px;
+    height: 150px;
+    transition: width 2s, transform 2s;
+}
+.top-weather-icon:hover{
+    width: 200px;
+}
+.bottom-weather-icon{
+    position: absolute;
+    left: 50px;
+    bottom: 2px;
+    width: 150px;
+    height: 150px;
+    transition: width 2s , transform 2s;
+}
+.bottom-weather-icon:hover{
+    width: 200px;
+}
+/* profile design ends */
