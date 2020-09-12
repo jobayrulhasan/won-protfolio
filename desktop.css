@@ -66,3 +66,18 @@
     width: 200px;
 }
 /* profile design ends */
+
+
+/* about me design starts here */
+.aboutme-image{
+    margin-top: 100px;
+}
+.aboutme-image img{
+    height: 270px;
+    width: 250px;
+}
+.about-me p{
+    text-align: left;
+}
+
+/* about me design ends here */
