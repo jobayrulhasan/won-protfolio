@@ -194,6 +194,24 @@ p{
 .card-title h2{
     background-color: #616161;
     color: white;
+    padding: 10px;
+    text-align: center;
+}
+.skills-container{
+    padding-right: 45px;
+}
+.skills-container li{
+    list-style: none;
+    font-weight: bolder;
+    margin: 22px 10px;
+    position: relative;
+}
+.skills-container li::before{
+    contain: '';
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background-color: #8d181280;
 }
 
 
