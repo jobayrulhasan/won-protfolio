@@ -166,6 +166,7 @@ p{
 
 
 /* professional-experience starts here */
+
 .professional-experience{
     padding: 1% 0;
 }
@@ -174,7 +175,7 @@ p{
     border-radius: 5px;
     padding: 10px;
     transition: 0.3s;
-    height: 500px;
+    height: 550px;
 }
 .card img{
     height: 70px;
@@ -207,17 +208,109 @@ p{
     position: relative;
 }
 .skills-container li::before{
-    contain: '';
+    content: '';
     position: absolute;
-    width: 100px;
+    top:calc(100% + 5px);
+    width: 100%;
     height: 10px;
-    background-color: #8d181280;
+    background-color: rgb(86,86,153,.5);
+    border-radius: 10px;
+}
+.skills-container li::after{
+    content: '';
+    position: absolute;
+    top:calc(100% + 5px);
+    left: 0;
+    width: 0%;
+    height: 10px;
+    background-color: rgb(86,86,153,1);
+    border-radius: 10px;
+
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+.html::after{
+    animation-name: html;
 }
 
+@keyframes html{
+    to{
+        width: 85%;
+    }
+}
 
+.css::after{
+    animation-name: css;
+}
 
+@keyframes css{
+    to{
+        width: 80%;
+    }
+}
 
+.java::after{
+    animation-name: java;
+}
 
+@keyframes java{
+    to{
+        width: 40%;
+    }
+}
+
+.bootstrap::after{
+    animation-name: bootstrap;
+}
+
+@keyframes bootstrap{
+    to{
+        width: 65%;
+    }
+}
+
+.github::after{
+    animation-name: github;
+}
+
+@keyframes github{
+    to{
+        width: 90%;
+    }
+}
+
+.wordpress::after{
+    animation-name: wordpress;
+}
+
+@keyframes wordpress{
+    to{
+        width: 88%;
+    }
+}
+
+.development::after{
+    animation-name: development;
+}
+
+@keyframes development{
+    to{
+        width: 60%;
+    }
+}
+
+.design::after{
+    animation-name: design;
+}
+
+@keyframes design{
+    to{
+        width: 85%;
+    }
+}
 
 
 .professional-experience::after{
