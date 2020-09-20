@@ -319,3 +319,60 @@ p{
     content: '';
 }
 /* professional-experience ends here */
+
+/* achievement contacts starts here */
+.achievement-contact{
+    padding:1% 7%;
+    background-color: #39a4ac;
+    color:white
+}
+.contact-me{
+   text-align: center;
+}
+.contact-me input , textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+.contact-me button{
+    border: none;
+    width:80px;
+    height: 40px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #052d2f;
+    color: white;
+}
+
+.more-option{
+    text-align: center;
+}
+ .btn{
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 5px;
+  margin: 10px;
+  width: 50px;
+  background-color: white;
+}
+.btn:hover{
+    background-color: gray;
+}
+
+
+
+.achievement-contact{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+/* achievement contacts ends here */
